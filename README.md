@@ -8,6 +8,5 @@ I wanted to create a program that would scan their Twitter profile and find out 
 
 ```
 git clone https://github.com/Adrian1707/sorry_is_not_enough
-cd Twitter_search
 python twitter_stream.py
 ```
