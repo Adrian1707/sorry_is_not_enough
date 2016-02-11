@@ -6,7 +6,9 @@ I wanted to create a program that would scan their Twitter profile and find out 
 ## Install
 
 ```
+Ensure you have python installed
 git clone https://github.com/Adrian1707/sorry_is_not_enough
+pip install tweepy
 python twitter_stream.py
 ```
 ## Improvements

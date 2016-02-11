@@ -12,8 +12,6 @@ auth.set_access_token(atoken,asecret)
 
 
 api = tweepy.API(auth)
-swtrains_profile = api.get_user("SW_Trains")
-sw_trains_id = swtrains_profile.id
 sw_trains_tweets =  api.user_timeline("SW_Trains",count=200)
 
 i = 0;
@@ -29,4 +27,5 @@ for i in tweets_list:
 		apologies+=1
 
 print "South West Trains have apologised %s times in their last 200 tweets" %apologies
+
 
