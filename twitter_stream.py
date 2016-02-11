@@ -30,17 +30,3 @@ for i in tweets_list:
 
 print "South West Trains have apologised %s times in their last 200 tweets" %apologies
 
-
-
-
-
-
-
-
-
-
-#fetch current trends in London 
-# api = tweepy.API(auth)
-# london_trends =  api.trends_place("44418")[0]["trends"]
-# for i in london_trends:
-# 	print i["name"]
