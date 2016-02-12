@@ -10,6 +10,7 @@ I used Flask, a lightweight Python framework to get this online.
 ```
 Ensure you have python installed
 git clone https://github.com/Adrian1707/sorry_is_not_enough
+cd sorry_is_not_enough
 pip install -r requirements.txt
 python run.py
 visit localhost:5000
