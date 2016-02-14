@@ -1,11 +1,12 @@
 <html>
   <head>
-    <title>SW Trains Apologise</title>
+    <title>SW Pains</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/index.css') }}">
   </head>
   <body>
+  	<h1>How much have South West Trains fucked up today?</h1>
 	  <form action="/apology_counter" method="post">
-		  <input type="submit" value="Count Apologies"></input>
+		  <input type="submit" value="Click to find out" class="css_btn_class"></input>
 	  </form>
-      <h1>{{ response }}</h1>
   </body>
 </html>
