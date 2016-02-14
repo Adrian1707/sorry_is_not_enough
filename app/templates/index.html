@@ -4,7 +4,9 @@
     <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/index.css') }}">
   </head>
   <body>
-  	<h1>How much have South West Trains fucked up today?</h1>
+  	<h1 class="header">How much have South West Trains fucked up today?</h1>
+  		<p class="desc">All too often South West Trains are guilty of providing an atrocious service for an extortinate cost.<br> 
+  		Every day their Twitter feed contain admissions of incompetance for this shoddy service, leaving customers<br> with nothing but empty apologies and deplete bank accounts. This site was built to gauge this ineptitude by<br> counting how many times South West Trains had apologised on their Twitter in the past 48 hours</p>
 	  <form action="/apology_counter" method="post">
 		  <input type="submit" value="Click to find out" class="css_btn_class"></input>
 	  </form>
